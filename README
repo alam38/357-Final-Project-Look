@@ -1,0 +1,21 @@
+This is another version of the look command. This command will run like the
+
+original look command with the three flags -d, -t, -f. This command will
+
+display any lines in a file that begin with the given string. If an file is
+
+not given, the file /usr/share/dict/words is used with the -d and -f flags
+
+turned on. The -d flag makes it so only alphanumeric numbers are compared.
+
+The -t flag makes it so only characters in the string up to the given
+
+termination character are compared. The -f flag makes it so that the case 
+
+of alphabetic characters are ignored.
+
+To compile you only need to run make, because a Makefile is provided. This
+
+make call should result in Look.c being compiled into Look. 
+
+To run Look simply input "./Look [flags] [word] [file]" to the command prompt.
