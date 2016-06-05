@@ -19,3 +19,5 @@ To compile you only need to run make, because a Makefile is provided. This
 make call should result in Look.c being compiled into Look. 
 
 To run Look simply input "./Look [flags] [word] [file]" to the command prompt.
+
+The link for the github page with the code is https://github.com/alam38/357-Final-Project-Look.
